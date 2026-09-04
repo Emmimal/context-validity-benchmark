@@ -6,7 +6,7 @@ A deterministic, zero-dependency benchmark measuring what it actually costs when
 
 Most agent frameworks track what's *present* in context. Almost none track whether it's still *valid*. This repo isolates that one mechanism: two identical executors, differing only in whether they check a dependency's validity before acting on it, or only discover it's broken when an action fails. No LLM, no API, no embeddings, nothing that would confound the measurement.
 
-Read the full write-up on Towards Data Science → **[The Context Window Is Lying to AI Agents — I Built a System That Knows When Context Goes Stale](https://towardsdatascience.com/author/emmimalp.alexander/)**
+Read the full write-up on Towards Data Science → **[Context Windows Don’t Know What’s Still True — I Built a System That Does](https://towardsdatascience.com/author/emmimalp.alexander/)**
 
 
 ---
@@ -210,7 +210,7 @@ Skip it for:
 
 ## Related Reading
 
-- **[The Context Window Is Lying to AI Agents — I Built a System That Knows When Context Goes Stale](https://towardsdatascience.com/author/emmimalp.alexander/)**
+- **[Context Windows Don’t Know What’s Still True — I Built a System That Does](https://towardsdatascience.com/author/emmimalp.alexander/)**
 - **[Changing One Prompt Can Affect 50 Others — I Built a Prompt Dependency Graph to Find What Needs Retesting](https://towardsdatascience.com/changing-one-prompt-can-affect-50-others-i-built-a-prompt-dependency-graph-to-find-what-needs-retesting/)**
 
 ## License
